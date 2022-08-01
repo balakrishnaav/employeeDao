@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>User Info</title>
+</head>
+<body>
+ <form action="UserInfo" method="post">
+<label for="code" >Enter Your Code  </label>
+<input type="text" id="code" name="code" required/><br/>
+<label for="name" >Enter Your Name</label>
+<input type="text" id="name" name="name" required/><br/>
+<label for="passwd" >Enter password</label> <input type="password" id="passwd" name="pwd"> <br>
+Select skills <input type="checkbox" name="skills" value="java">Java
+		<input type="checkbox" name="skills" value="spring">Spring
+		<input type="checkbox" name="skills" value="react">React JS
+		<input type="checkbox" name="skills" value="mysql">My Sql <br>	
+Marital status <input type="radio" name="mstatus" value="single"> Single
+			   <input type="radio" name="mstatus" value="married"> Married
+			   <input type="radio" name="mstatus" value="divorced"> Divorced <br>
+			   Enter date: <input type="date" name="bdate" required> <br>
+               <input type="submit">
+</form>
+</body>
+</html>
